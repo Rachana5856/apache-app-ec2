@@ -2,7 +2,7 @@ provider "aws" {
   region = "ap-south-1"
 }
 
-resource "aws_instance" "example" {
+resource "aws_instance" "exam" {
   ami           = "ami-0931307dcdc2a28c9"   # Amazon Linux 2 (ap-south-1)
   instance_type = "t2.micro"
 
